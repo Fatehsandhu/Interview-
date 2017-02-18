@@ -21,6 +21,8 @@ class TableView: UITableViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //self.tableView.isEditing = true
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -65,6 +67,16 @@ class TableView: UITableViewController  {
             
         }
     }
+    
+  /* Editing functionality that can be added
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+        return .none
+    }
+    
+    override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
+        return false
+    }
+ */
 }
 
 

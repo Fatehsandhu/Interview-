@@ -33,13 +33,15 @@
                             <outlet property="delegate" destination="Dgp-c5-trj" id="Lil-1M-x1x"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="To do list" id="QcJ-N6-hRf">
-                        <barButtonItem key="rightBarButtonItem" title="Add Item" id="5UF-U4-an6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5UF-U4-an6">
                             <connections>
                                 <segue destination="lyl-Qq-9dy" kind="show" id="YGY-eX-P9R"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="Jfo-8k-gDy" id="6fR-2Z-zW0"/>
                         <outlet property="theTable" destination="Jfo-8k-gDy" id="Vhu-vt-QbC"/>
@@ -95,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nPd-tP-0AF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1477.5999999999999" y="-13.043478260869566"/>
+            <point key="canvasLocation" x="1393" y="-765"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pjy-IR-HXW">
